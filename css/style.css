@@ -1,0 +1,284 @@
+/*.. body ..*/
+body{
+    font-family:Aerial;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+/*.. global ..*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.button_1{
+    background-color: cyan;
+    color: blueviolet;
+    padding: 4px;
+    height: 25px;
+}
+
+
+/*.. header ..*/
+/*..Index..*/
+
+header{
+    background-color: darkseagreen;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: aqua 10px solid;
+
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin-top: 10px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: darkcyan;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: white;
+}
+
+
+/*.. showcase ..*/
+#showcase{
+    min-height: 400px;
+    background: url('../images/pic.jpg') ;
+    text-align: center;
+    color: white;
+}    
+
+#showcase h2{
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+#showcase p{
+    color: white;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+
+
+/*.. Newsletter..*/
+#main{
+    background-color: seagreen;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#main h1{
+    float: left;
+    margin-top: 10px;
+}
+
+#main form{
+    float: right;
+    margin-top: 10px;
+}
+
+#main input[type="Email"]{
+   padding: 4px;
+   height: 25px;
+   width: 250px;
+}
+
+
+/*.. Boxes..*/
+#boxes{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#boxes .box{
+   float: left;
+   width: 30%;
+   padding: 10px;
+
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+/*.. About Us.html..*/
+
+#art_1{
+    float: left;
+    width: 70%;
+    padding: 0 20px;
+    box-sizing: border-size;
+}
+
+
+#art_1 h1{
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase ;
+}
+
+.ant{
+    background-color: aqua;
+    color: red;
+    margin: 10px;
+    padding: 5px;
+    line-height: 1.5em;
+}
+
+.art{
+    background-color: pink;
+    color: blue;
+    margin: 10px;
+    padding: 5px;
+    line-height: 1.5em;
+
+}
+
+aside{
+    background-color: green;
+    width: 20%;
+    float: right;
+    margin-top: 60px;
+}
+
+aside h1{
+    color: cyan;
+    text-align: center;
+
+}  
+
+aside p{
+    color: yellow;
+    margin: 10px;
+    padding: 5px;
+    line-height: 1.5em;
+}
+
+
+/*..Services.html..*/
+
+#serv{
+    float: left;
+    width: 70%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#serv h1{
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#serv li{
+    border: pink solid 2px;
+    padding: 10px;
+    margin-bottom: 2px;
+    background-color: dimgrey;
+}
+
+#serv h2{
+    color: darkred;
+}
+
+#serv p{
+    color: pink;
+}
+
+#feedback{
+    background-color: pink;
+    float: right;
+    width: 20%;
+    padding: 0;
+    margin-top: 90px; 
+}
+
+#feedback h1{
+    color: dimgray;
+    font-size: 23px;
+    text-align: center;
+}
+
+#feedback form{
+    padding: 10px;
+    margin: auto;
+}
+
+#feedback label{
+    color: green;
+    padding: 5px;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+#feedback input{
+    width: 250px;
+    height: 20px;
+
+}
+
+#feedback textarea{
+    margin: 15px 1px 0 0;
+}
+
+#feedback button{
+    background-color: aqua;
+    color: green;
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+}
+
+/*..footer..*/
+footer{
+    text-align: center;
+    background-color: darkseagreen;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
